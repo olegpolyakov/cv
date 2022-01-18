@@ -2,58 +2,72 @@
 
 Full-stack web develeper, educator, content creator
 
-Male, 29 July 1989
-+7 (903) 518-21-31
-olegpolyakov@outlook.com
+Male, July 29th 1989
 
-## Desired position
+📞 +7 (903) 518-21-31
+
+📧 olegpolyakov@outlook.com
+
+## 🧑‍💻 Desired position
 
 Front-end developer / Back-end developer / Fullstack developer
 
-## Key skills
+## ⭐ Skills
 
-### Languages
+### 🗺️ Languages
 
 * Russian - Native
-* English - C2 - Proficient
+* English - C1 - Advanced
 
-### Skills
+### 💻 IT
 
-#### Expert
+#### Languages
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
-* React, Redux
-* Node.js, Express
-* MongoDB
-
-#### General
-
 * C#
 * PHP
-* SQL
 
-## Work experience
+#### Front-end
 
-### Full-stack web developer at Say Yes
+* React
+* Redux
 
-Jan 2014 - untill now
+#### Back-end
+* ASP.NET
+* Node.js
+
+#### Databases
+
+* MSSQL
+* MySQL
+* MongoDB
+
+## 🏢 Work experience
+
+### Full-stack web developer at [Say Yes](https://sayes.ru)
+
+Say Yes is an english school based in Moscow, Russia.
+
+**Jan 2014 - untill now**
 
 Full-stack development using the React/Redux/Node.js/MongoDB stack.
 
-### CEO, architect and developer at CodeDojo
+### CEO, author and developer at [CodeDojo](https://codedojo.ru)
 
-Jan 2016 - untill now
+CodeDojo is an online e-learning platform for learning programming and developement.
 
-Full-stack development using the React/Redux/Node.js/MongoDB stack.
+**Jan 2016 - untill now**
 
-## Education
+At CodeDojo I am responsilbe for pretty much everything, from chooising the fonts to the development stack. Currently I'm using the React/Redux/Node.js/MongoDB stack.
+
+## 🎓 Education
 
 ### Higher
 
 * **2011** - Russian State University of Oil and Gas - Faculty of Economis and Management, Organization Management
 
-## Certifications
+### Certifications
 
 * **2016** - Exam 70-480: Programming in HTML5 with JavaScript and CSS3
