@@ -71,3 +71,8 @@ At CodeDojo I am responsilbe for pretty much everything, from chooising the font
 ### Certifications
 
 * **2016** - Exam 70-480: Programming in HTML5 with JavaScript and CSS3
+
+## 💻 Open-source Projects
+
+* [**MDC React**](https://github.com/olegpolyakov/mdc-react) - A React component library that implements Material Design
+* [**MDC Pug**](https://github.com/olegpolyakov/mdc-pug) - A Pug component library that implements Material Design
