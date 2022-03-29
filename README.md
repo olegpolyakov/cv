@@ -1,4 +1,4 @@
-# Polyakov Oleg
+# Oleg Polyakov
 
 Full-stack web develeper, educator, content creator
 
