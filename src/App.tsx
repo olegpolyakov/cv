@@ -87,23 +87,16 @@ export default function App() {
                     <h2>🏢 Work experience</h2>
 
                     <div className="experience-item">
-                        <h3>Full-stack web developer at [Say Yes](https://sayes.ru)</h3>
+                        <h3>Full-stack web developer at [Say Yes](https://sayyes.school)</h3>
                         <p className="text-weight-medium">Jan 2014 - until now</p>
                         <p>Say Yes is an english school based in Moscow, Russia.</p>
                         <p>Full-stack development using the React/Redux/Node.js/MongoDB stack.</p>
                     </div>
 
                     <div className="experience-item">
-                        <h3>CEO, author and developer at [CodeDojo](https://codedojo.ru)</h3>
+                        <h3>CEO, author and developer at [CodeDojo](https://codedojo.io)</h3>
                         <p className="text-weight-medium">Jan 2016 - until now</p>
                         <p>CodeDojo is an online e-learning platform for learning programming and development.</p>
-                        <p>At CodeDojo I am responsible for pretty much everything, from choosing the fonts to the development stack. Currently I&apos;m using the React/Redux/Node.js/MongoDB stack.</p>
-                    </div>
-
-                    <div className="experience-item">
-                        <h3>CEO, author and developer at [CodeDojo](https://codedojo.ru)</h3>
-                        <p className="text-weight-medium">CodeDojo is an online e-learning platform for learning programming and development.</p>
-                        <p>Jan 2016 - until now</p>
                         <p>At CodeDojo I am responsible for pretty much everything, from choosing the fonts to the development stack. Currently I&apos;m using the React/Redux/Node.js/MongoDB stack.</p>
                     </div>
                 </section>
