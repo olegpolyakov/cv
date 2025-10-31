@@ -7,7 +7,7 @@ export default function Placeholder() {
             alignItems: 'center',
             height: '100dvh'
         }}>
-            <span style={{ fontSize: '48px' }}>🧑‍💻</span>
+            <span style={{ fontSize: '48px', animation: 'spin 2s linear infinite' }}>⚙️</span>
             <span style={{ fontSize: '24px' }}>Work in progress...</span>
         </div>
     );
