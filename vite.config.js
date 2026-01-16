@@ -1,4 +1,5 @@
 import path from 'path';
+import { NodePackageImporter } from 'sass';
 
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
@@ -6,8 +7,8 @@ import svgr from 'vite-plugin-svgr';
 import mdx from '@mdx-js/rollup';
 
 export default defineConfig({
-    base: './',
     root: path.resolve(__dirname, 'src'),
+    publicDir: path.resolve(__dirname, 'public'),
     build: {
         outDir: path.resolve(__dirname, 'dist'),
         emptyOutDir: true,
@@ -27,7 +28,8 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, 'src')
+            '@': path.resolve(__dirname, 'src'),
+            'kantanui': path.resolve(__dirname, '../../kantanui')
         }
     },
     css: {
@@ -36,7 +38,9 @@ export default defineConfig({
             generateScopedName: '[folder]__[local]--[hash:base64:5]'
         },
         preprocessorOptions: {
-            scss: {}
+            scss: {
+                importers: [new NodePackageImporter()]
+            }
         }
     }
 });
