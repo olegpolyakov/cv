@@ -1,5 +1,4 @@
-// TODO Use pkg import when supported
-@use '../../../kantanui/dist/styles';
+@use 'pkg:kantanui/styles';
 
 body {
     margin: 0;
