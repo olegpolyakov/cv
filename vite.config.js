@@ -30,11 +30,9 @@ export default defineConfig(env => {
             })
         ],
         resolve: {
-            alias: Object.assign({
+            alias: {
                 '@': path.resolve(__dirname, 'src')
-            }, isDevelopment ? {
-                'kantanui': path.resolve(__dirname, '../../kantanui')
-            } : {})
+            }
         },
         css: {
             modules: {
