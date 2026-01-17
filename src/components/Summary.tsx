@@ -1,4 +1,8 @@
-import { Button, Flex, Heading, Image, Link, Text } from 'kantanui';
+import { Button, ButtonGroup, Flex, Heading, Image, Text } from 'kantanui';
+
+import GitHubIcon from '@/icons/github.svg';
+import LinkedInIcon from '@/icons/linkedin.svg';
+import TelegramIcon from '@/icons/telegram.svg';
 
 export default function Summary() {
     return (
@@ -11,16 +15,6 @@ export default function Summary() {
                 <Text>Systems-oriented full-stack developer with deep experience in scalable architecture, UI logic, and workflow optimization.</Text>
             </Flex>
 
-            <Flex column gap="xs">
-                <Link as="a" href="mailto:olegpoliakov@outlook.com">olegpoliakov@outlook.com</Link>
-
-                <Flex gap="xxs">
-                    <Link href="https://github.com/olegpolyakov">GitHub</Link> | 
-                    <Link href="https://linkedin.com/in/olegpoliakov-dev">LinkedIn</Link> | 
-                    <Link href="https://t.me/olegpolyakov">Telegram</Link>
-                </Flex>
-            </Flex>
-
             <Button
                 content="Download CV"
                 as="a"
@@ -30,6 +24,13 @@ export default function Summary() {
                 rel="noopener noreferrer"
                 download
             />
+
+            <ButtonGroup>
+                <Button as="a" href="mailto:olegpoliakov@outlook.com" icon="email" />
+                <Button as="a" href="https://github.com/olegpolyakov" icon={<GitHubIcon />} />
+                <Button as="a" href="https://linkedin.com/in/olegpoliakov-dev" icon={<LinkedInIcon />} />
+                <Button as="a" href="https://t.me/olegpolyakov" icon={<TelegramIcon />} />
+            </ButtonGroup>
         </Flex>
     );
 }
