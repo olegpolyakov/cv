@@ -26,7 +26,7 @@ export default function Summary() {
             />
 
             <ButtonGroup>
-                <Button as="a" href="mailto:olegpoliakov@outlook.com" icon="email" />
+                <Button as="a" href="mailto:olegpoliakov@outlook.com" icon={{ name: 'email', filled: true }} />
                 <Button as="a" href="https://github.com/olegpolyakov" icon={<GitHubIcon />} />
                 <Button as="a" href="https://linkedin.com/in/olegpoliakov-dev" icon={<LinkedInIcon />} />
                 <Button as="a" href="https://t.me/olegpolyakov" icon={<TelegramIcon />} />
