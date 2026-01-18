@@ -1,16 +1,21 @@
 import { Button, ButtonGroup, Flex, Heading, Image, Text } from 'kantanui';
 
-import GitHubIcon from '@/icons/github.svg';
-import LinkedInIcon from '@/icons/linkedin.svg';
-import TelegramIcon from '@/icons/telegram.svg';
+import GitHubIcon from '@/assets/github.svg';
+import LinkedInIcon from '@/assets/linkedin.svg';
+import Logo from '@/assets/logo.svg';
+import TelegramIcon from '@/assets/telegram.svg';
 
 export default function Summary() {
     return (
         <Flex column gap="m">
-            <Image className="photo" src="/photo.jpg" alt="Oleg Poliakov" />
-
             <Flex column gap="s">
-                <Heading content="Oleg Poliakov" />
+                <Heading
+                    start={<Logo className="logo" />}
+                    size="m"
+                    content="Oleg Poliakov"
+                />
+
+                <Image className="photo" src="/photo.jpg" alt="Oleg Poliakov" />
                 
                 <Text>Systems-oriented full-stack developer with deep experience in scalable architecture, UI logic, and workflow optimization.</Text>
             </Flex>

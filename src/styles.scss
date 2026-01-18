@@ -46,6 +46,18 @@ main {
     }
 }
 
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.name {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .photo {
     max-width: 360px;
 }
