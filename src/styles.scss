@@ -12,7 +12,7 @@ body {
 }
 
 .root {
-    @include media.query(gt-md) {
+    @include media.from(m) {
         max-height: 100vh;
         height: 100vh;
         display: grid;
@@ -27,7 +27,7 @@ main {
 }
 
 aside {
-    @include media.query(gt-md) {
+    @include media.from(m) {
         background-color: styles.var(background-secondary-color);
     }
 }
@@ -35,7 +35,7 @@ aside {
 main {
     line-height: 1.5;
 
-    @include media.query(gt-md) {
+    @include media.from(m) {
         max-height: 100vh;
         overflow: auto;
         padding: styles.var(space-l);
