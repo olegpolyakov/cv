@@ -1,7 +1,7 @@
 import { Provider } from 'kantanui';
 
-import Summary from './Summary';
 import CV from './CV.mdx';
+import Summary from './Summary';
 
 export default function Root() {
     return (
