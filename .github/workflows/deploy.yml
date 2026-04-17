@@ -26,18 +26,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        
+
+      - name: Configure GitHub Packages for npm
+        run: |
+          cat > ~/.npmrc <<'EOF'
+          @olegpolyakov:registry=https://npm.pkg.github.com
+          //npm.pkg.github.com/:_authToken=${GHP_TOKEN}
+          EOF
+        env:
+          GHP_TOKEN: ${{ secrets.GHP_TOKEN }}
+
       - name: Build
         uses: actions/setup-node@v4
         with:
           node-version: 24.x
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
       - run: npm run build
-    
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
