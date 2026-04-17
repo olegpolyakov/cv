@@ -34,10 +34,10 @@ jobs:
         run: |
           cat > ~/.npmrc <<'EOF'
           @olegpolyakov:registry=https://npm.pkg.github.com
-          //npm.pkg.github.com/:_authToken=${GHP_TOKEN}
+          //npm.pkg.github.com/:_authToken=${AUTH_TOKEN}
           EOF
         env:
-          GHP_TOKEN: ${{ secrets.GHP_TOKEN }}
+          AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
         uses: actions/setup-node@v4
