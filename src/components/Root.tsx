@@ -1,18 +1,19 @@
-import { Provider } from 'kantanui';
+import { Provider, Scrollable } from '@olegpolyakov/ui';
 
-import CV from './CV.mdx';
+import CV from '@/documents/CV.mdx';
+
 import Summary from './Summary';
 
 export default function Root() {
     return (
         <Provider className="root">
-            <aside>
+            <Scrollable as="aside">
                 <Summary />
-            </aside>
+            </Scrollable>
             
-            <main>
+            <Scrollable as="main" fade>
                 <CV />
-            </main>
+            </Scrollable>
         </Provider>
     );
 }

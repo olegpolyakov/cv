@@ -1,4 +1,5 @@
-import sharedConfig from '@olegpolyakov/frontend/config/eslint.config.js';
 import { defineConfig } from 'eslint/config';
+
+import sharedConfig from '@olegpolyakov/frontend/eslintconfig';
 
 export default defineConfig(sharedConfig);

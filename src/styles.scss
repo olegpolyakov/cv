@@ -1,5 +1,6 @@
-@use 'pkg:kantanui/styles';
-@use 'pkg:kantanui/styles/media';
+@use 'pkg:@olegpolyakov/ui';
+@use 'pkg:@olegpolyakov/ui/styles';
+@use 'pkg:@olegpolyakov/ui/styles/media';
 
 body {
     margin: 0;
@@ -52,12 +53,10 @@ main {
 }
 
 .name {
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    white-space: nowrap;
 }
 
 .photo {
+    width: 100%;
     max-width: 360px;
 }

@@ -1,6 +1,7 @@
 import mdx from '@mdx-js/rollup';
-import sharedConfig from '@olegpolyakov/frontend/config/vite.config.js';
 import { defineConfig, mergeConfig } from 'vite';
+
+import sharedConfig from '@olegpolyakov/frontend/viteconfig';
 
 export default defineConfig(mergeConfig(
     sharedConfig({
