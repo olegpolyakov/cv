@@ -7,12 +7,14 @@ import Summary from './Summary';
 export default function Root() {
     return (
         <Provider className="root">
-            <Scrollable as="aside">
+            <aside>
                 <Summary />
-            </Scrollable>
+            </aside>
             
             <Scrollable as="main" fade>
-                <CV />
+                <article>
+                    <CV />
+                </article>
             </Scrollable>
         </Provider>
     );

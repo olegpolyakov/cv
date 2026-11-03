@@ -7,18 +7,22 @@ import TelegramIcon from '@/assets/telegram.svg';
 
 export default function Summary() {
     return (
-        <Flex column gap="m" align="center">
-            <Flex column gap="s">
+        <Flex className="summary" column gap="m" align="center">
+            <Flex className="about" column gap="s">
                 <Heading
                     className="name"
                     start={<Logo className="logo" />}
                     size="m"
-                    content="Oleg Poliakov"
+                    content="OLEG POLIAKOV"
+                    weight="bold"
                 />
 
                 <Image className="photo" src="/photo.jpg" alt="Oleg Poliakov" />
-                
-                <Text>Systems-oriented full-stack developer with deep experience in scalable architecture, UI logic, and workflow optimization.</Text>
+
+                <Heading content="Senior Full-Stack Engineer" size="s" />
+
+                <Text content="Building products that solve real problems." size="m" />
+                <Text content="Product Engineering • System Design • AI" size="s" />
             </Flex>
 
             <ButtonGroup align="evenly">
